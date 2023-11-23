@@ -8,7 +8,19 @@ if ($_SESSION['is login'] != true){
 }
 checkSessionValidation();
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
 
-<h1>
-    HOME
-</h1>
+    <form action="logout.php" method="post">
+        <input type="submit" name="logout" value="Logout" class="btn btn-login font-weight-bold col-5">
+    </form>
+
+    <h1>HOME</h1>
+
+</body>
+</html>
+
