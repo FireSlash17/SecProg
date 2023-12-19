@@ -6,6 +6,7 @@
 .text-login{
     text-align: center;
     font-size: 24px;
+    color: #d9dde1;
 }
 
 .curved-10{
@@ -26,7 +27,7 @@
 }
 .body {
     
-    background-image: url('../SecProg/trukhome.png');
+    background-image: url('./trukhome.png');
     background-size: cover; 
    
 }
